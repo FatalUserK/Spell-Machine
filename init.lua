@@ -41,7 +41,7 @@ end
 -- This code runs when all mods' filesystems are registered
 local content = ModTextFileGetContent("data/biome/_pixel_scenes.xml")
 content = content:gsub( "</mBufferedPixelScenes>",
-  [[ --SPELL MACHINE
+  [[ <!--  = SPELL MACHINE =  -->
   <PixelScene pos_x="964" pos_y="-140" just_load_an_entity="mods/spell_machine/files/spellmachine/spellmachine_pixel_scene.xml" />
   </mBufferedPixelScenes>]] )
 
